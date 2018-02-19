@@ -12,9 +12,16 @@
 #include <stdio.h>
 #include "System.h"
 
+#define Na 6.02214129E23
+#define R 8.3144621
+#define PI 3.14159265358979323846
 
 void initSystem(System *system);
 
 void initInteraction(System *system);
+
+void initResults(System *system);
+
+void writeResults(System *system);
 
 #endif /* IO_h */
